@@ -13,7 +13,13 @@
       color: gray;
     }
     p {
-      color: #b3b2b1;
+      color: green;
+      text-align: right;
+    }
+   
+    z {
+      text-align: left;
+    }
     }
     body {
       background-color: black;
@@ -21,6 +27,15 @@
     }
     h5 {
       white
+    }
+    
+    h4 {
+      color: green;
+    
+    }
+    
+    h3 {
+      color: green;
     }
     .mybtn-right{
 	text-align: right;
@@ -30,12 +45,156 @@
       background-color: gray;
       color: black;
     }
-      
+    
+    
       footer {
         background-color: #15151e;
         color: #b3b2b1;
         padding: 15px;
       }
+    
+  .container {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 40%;
+  height: 40%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+    
+    
+    
+    body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: left;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+    
 
     </style>
 </head>
@@ -60,97 +219,148 @@
   </div>
     
 </nav>
+    
 <main>
   
 <section class="section-1">
       
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena%20Banica.jpg?v=1642019105581" class="float-start" alt="" width="550" height="720"> 
+      <div class="container mt-3">  
+         <div class="overlay">
+    <div class="text">Original Image: Elena Banica, Santa Cruz, 2018. Photograph.</div>
+  </div>           
+        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena%20Banica.jpg?v=1642019105581" class="float-start" alt="" width="550" height="720">
+         
         <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Santa%20Cruz%20Glitch%20Image%20(Paulstrech%20Effect)%20converted%20to%20jpg.jpg?v=1641956955752" class="float-end" alt="Santa Cruz" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Santa Cruz," Fall 2021. Original and Glitched Image.
-              </p>
-      </div>
-  </section>
+         
+        
+          <p class="text-right">Elena Banica, "Santa Cruz," Fall 2021. Glitched image.</p> 
+          
+  </div>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  </section>
+  
+  
+  
+  
+  
   <section class="section-2">
       
       <div class="container mt-3">
+         <div class="overlay">
+    <div class="text">Original Image: Ravi Sharma, "Sun Peeping on Ice Mountain," Nepal Arghanchi, Unsplash, https://unsplash.com/photos/hNv5s6NEYig.</div>
+  </div>           
+        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Sunrise%20image.jpg?v=1642020733350" class="float-start" alt="" width="550" height="720">
         
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Sunrise%20image.jpg?v=1642020733350" class="float-start" alt="" width="550" height="720"> 
         <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Sunrise%20(Reverb%20Glitched%20Image)%20converted%20to%20jpg.jpg?v=1642020704090" class="float-end" alt="Sunrise" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Sunrise," Fall 2021. Photo and Glitched Image.
+        <p class="text-right"> Elena Banica, "Sunrise," Fall 2021. Glitched Image.
               </p>
+          
+              
     </div>
   </section>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-3">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Landscape-.png?v=1642021527783" class="float-end" alt="LandscapeI" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image I.
-              </p>
+  
+  
+  <div class="container">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" alt="" class="image" style="width:100%">
+  <h4 class="text-left">
+    "Seljalandsfoss: A Perfect Day Trip," May 11, 2021. Photograph, Bookmundy, https://www.bookmundi.com/t/seljalandsfoss-waterfall-in-iceland.
+    </h4>
+  
+  </div>
+  <div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Landscape-.png?v=1642021527783" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Beautiful-Landscape_-Glitch-Art_-Fall-2021.png?v=1642021365106" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-19-arta_1.png?v=1642021789919" class="float-end" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-6-arta.png?v=1642021655401" class="float-end" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Abstract-Landscape_-Glitch-26-arta.png?v=1642021219962" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/E.-B.-Glitch10-arta.png?v=1642021073474" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Landscape-.png?v=1642021527783" style="width:100%" onclick="currentSlide(1)" alt="Elena Banica, 'Landscape I,' Fall 2021. Glitched Image.">
     </div>
-  </section>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-4">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Glitched Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Beautiful-Landscape_-Glitch-Art_-Fall-2021.png?v=1642021365106" class="float-end" alt="LandscapeII" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image II.
-              </p>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Beautiful-Landscape_-Glitch-Art_-Fall-2021.png?v=1642021365106" style="width:100%" onclick="currentSlide(2)" alt="Elena Banica, 'Landscape II,' Fall 2021, Glitched Image.">
     </div>
-  </section>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-5">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-19-arta_1.png?v=1642021789919" class="float-end" alt="LandscapeIII" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image III.
-              </p>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-19-arta_1.png?v=1642021789919" style="width:100%" onclick="currentSlide(3)" alt="Elena Banica, 'Landscape III,' Fall 2021. Glitched Image.">
     </div>
-  </section>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-6">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-6-arta.png?v=1642021655401" class="float-end" alt="LandscapeIV" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image IV.
-              </p>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Glitch-6-arta.png?v=1642021655401" style="width:100%" onclick="currentSlide(4)" alt="Elena Banica, 'Landscape IV,' Fall 2021. Glitched Image.">
     </div>
-  </section>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-7">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Abstract-Landscape_-Glitch-26-arta.png?v=1642021219962" class="float-end" alt="LandscapeV" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image V.
-              </p>
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena-Banica_-Abstract-Landscape_-Glitch-26-arta.png?v=1642021219962" style="width:100%" onclick="currentSlide(5)" alt="Elena Banica, 'Landscape V,' Fall 2021. Glitched Image.">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/E.-B.-Glitch10-arta.png?v=1642021073474" style="width:100%" onclick="currentSlide(6)" alt="Elena Banica, 'Landscape VI,' Fall 2021. Glitched Image.">
+      
     </div>
-  </section>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
-  <section class="section-8">
-      <div class="container mt-3">
-        
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/R.jpg?v=1642024239132" class="float-start" alt="Landscape" width="550" height="720"> 
-        <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/E.-B.-Glitch10-arta.png?v=1642021073474" class="float-end" alt="LandscapeVI" width="550" height="720"> 
-        <p class="text-center">
-               Elena Banica, "Landscape," Fall 2021. Photo and Glitched Image VI.
-              </p>
-    </div>
-  </section>
+  </div>
+</div>
+<h4 class="text-center">
+        Elena Banica, 'Landscape I, II, III, IV, V, VI,' Fall 2021. Glitched Images.
+      </h4>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
   
   </main>
 
