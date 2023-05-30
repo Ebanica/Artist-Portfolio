@@ -1,25 +1,30 @@
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-</style>
-</head>
-<body>
 
 
-</body>
-</html>
+ /* Remove the navbar's default margin-bottom and rounded borders */
+      navbar {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+    
+    body {
+      background-color: black;
+    }
+
+      
+    p {
+      color: White;}
+    
+    c {
+      color: gray;
+    }
+    
+    f {
+      color: black
+    }
+  
+
+
