@@ -10,77 +10,50 @@
   <style>
       /* Remove the navbar's default margin-bottom and rounded borders */
       navbar {
-        background-color: magenta;
-        color: white;
         padding: 15px;
         margin-bottom: 0;
         border-radius: 0;
       }
     body {
-      background-color: black;
-      color: white
+      background-color: #ffffe6;
+      color: black;
     }
-    
+    h1 {
+      color: #ffffe6;
+    }
+    h4 {
+      color: white;
+    }
     .mybtn-right{
 	text-align: right;
   
 }
     .btn {
-      background-color: black;
-      color: white;
-    }
-
-      /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-      .row.content {
-        height: 450px;
-        color: purple;
-      }
-    h1 {
+      background-color: #ffffe6;
       color: black;
     }
-      
-    h4 {
-      color: black;
-    }
-      /* Set gray background color and 100% height */
-      sidenav {
-        padding-top: 20px;
-        background-color:
-        height: 100%;
-      }
-
       /* Set black background color, white text and some padding */
       footer {
-        background-color: white;
-        color: black;
+        background-color: black;
+        color: white;
         padding: 15px;
       }
+    p{
+      color: black;
+    }
 
-      /* On small screens, set height to 'auto' for sidenav and grid */
-      @media screen and (max-width: 767px) {
-        .sidenav {
-          height: auto;
-          padding: 15px;
-        }
-        .row.content {
-          height: auto;
-        }
-      }
     </style>
 </head>
 <body>
-  
-<!--Fixed Navbar-->
-  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Elena.jpg?v=1641968886959" alt="ELENA" style="width:60px;" class="rounded-pill">
     </a>
     </div>
-    
-    <div class="container-fluid text-center">
+     <div class="container-fluid text-center">
     <h1>
-      ORIGINAL IMAGES
+      DRAWING
     </h1>
   </div>
     
@@ -88,92 +61,188 @@
 	
   <a class="btn btn-primary" href="index.html">HOME</a>
   </div>
-    
+  
 </nav>
   
-  
-  
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/virtual%20reality.jpg?v=1658461811719" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-    Art Building [Online Image]. Photos, San Jose State University, You| Visit, https://www.youvisit.com/tour/photos/sjsu/80159.
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/monkey-kingdom-ss1.jpg?v=1658461790844" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-    Chen, S. A. Monkey Kingdom Movie Review [Online Image]. Common Sense Media, https://www.commonsensemedia.org/movie-reviews/monkey-kingdom.
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/Ring.jpg?v=1658461825997" alt="" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-    Boxing Ring Cliparts #2626780 [Online Image]. Boxing Arena boxing ring background, Clipart Library, http://clipart-library.com/clipart/1140001.htm.
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/veverita%20zburatoare.jpg?v=1658461840804" style="width:100%"> 
-  <b><p class="text-center">
-     [Veverita Zburatoare (Sugar Glider), Online Image]. https://www.google.com/search?q=veverita+zburatoare+images&tbm=isch&chips=q:veverita+zburatoare+images,online_chips:sugar+glider:rmHR8Vznuw4%3D&rlz=1C1JZAP_enUS865US867&hl=en&sa=X&ved=2ahUKEwi90LqmjIv5AhU3lGoFHWoOCIEQ4lYoA3oECAEQJg&biw=1351&bih=801.
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/squirrel.jpg?v=1658461849100" alt="" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-   Rodents [Online Image]. (2020). Termmax, https://termmax.net/how-squirrels-communicate/.
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
-  <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/Ka.jpg?v=1658461872577" alt="" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-     Photo showing a Summer Camp class [Online Image].  
-    </p></b>
-  </div>
-  
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
-  
    <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/51b150c6-6194-4d98-802e-15e58001988c_Final%20Exam.jpg?v=1658469607209" alt="" class="mx-auto d-block" style="width:100%"> 
-  <b><p class="text-center">
-   Artursz, "Text sign showing final exam," Stock Photo, 123RF. https://www.123rf.com/photo_138899510_text-sign-showing-final-exam-business-photo-text-test-given-to-student-at-the-end-of-a-course-of-stu.html.
-
-    </p></b>
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20240115_22_48_05_Pro.jpg?v=1705387972143" alt="" class="mx-auto d-block" style="width:42%"> 
+  <b><p class="text-center">Elena Banica, "Looking Ahead," Fall 2023. Drawing: charcoal on canvas, 6 in. x 8 in.</p></b>
   </div>
   
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
   
   <div class="container mt-3">
-  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/51b150c6-6194-4d98-802e-15e58001988c_weconnect-virtual-classroom-7.jpg?v=1658469622615" alt="" class="mx-auto d-block" style="width:100%"> 
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_41_25_Scan%20(2).jpg?v=1671349579371" alt="" class="mx-auto d-block" style="width:48%"> 
   <b><p class="text-center">
-    BAR3CO, "Virtual Classroom," April 14, 2020, Photo, Automation Associates, https://aa.net.nz/wp-content/uploads/2020/04/BAR3CO-Virtual-classroom-jpg.jpg.  
+    Elena Banica, "Parody," Fall 2022. Drawing, 11in X 14in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_39_18_Scan%20(2).jpg?v=1671349555222" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Reinterpretation," Fall 2022. Drawing, 11in X 14in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_40_35_Scan%20(2).jpg?v=1671349563857" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Reinvention," Fall 2022. Drawing, 11in X 14in.
     </p></b>
   </div>
   
-  <nav class="navbar navbar-expand-sm bg-light navbar-light"></nav>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
   
-  <footer class="container-fluid text-center">
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_54_12_Scan%20(2).jpg?v=1671349611817" alt="" class="mx-auto d-block" style="width:100%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the Dark I," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_56_23_Scan%20(2).jpg?v=1671349635825" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the Dark II," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_58_14_Scan%20(2).jpg?v=1671349647894" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the Dark III," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_59_09_Scan%20(2).jpg?v=1671349662364" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the dark IV," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_15_01_09_Scan%20(2).jpg?v=1671349673196" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the Dark V," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/04dca818-3fe5-4bfd-9d9c-a5b0c9e38308/WIN_20221210_14_55_02_Scan.jpg?v=1671349623106" alt="" class="mx-auto d-block" style="width:100%"> 
+  <b><p class="text-center">
+    Elena Banica, "In the Dark VI," Fall 2022. Drawing, 11in X 17in.</p></b>
+  </div>
+  
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/The%20Mask%20%2C%20II.jpg?v=1642019294164" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask I," Spring 2019. Pastel, 12in X 9in.
+    </p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/The%20Mask%2C%203.jpg?v=1642019374037" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask II," Spring 2019. Pastel, 9in X 12in.
+    </p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/The%20Mask%2C%20II.jpg?v=1642019439961" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask III," Spring 2019. Charcoal, 11in X 14in.
+    </p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Mask%20IV.jpg?v=1643083439178" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask IV," Spring 2019. Pencil, 18in X 24in.
+    </p></b>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/12345.jpg?v=1643135692109" alt="" class="mx-auto d-block" style="width:54%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask V," Spring 2019. Charcoal, 18in X 24in.
+    </p></b>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/Mask%20VI.jpg?v=1643083397572" alt="" class="mx-auto d-block" style="width:86%"> 
+  <b><p class="text-center">
+    Elena Banica, "Mask VI," Spring 2019. Charcoal, 24in X 18in.
+    </p></b>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/20190815_220153.jpg?v=1642015479675" alt="" class="mx-auto d-block" style="width:80%"> 
+  <b><p class="text-center">
+    Elena Banica, "Contrast I," Spring 2019. Charcoal, 11in X 14in.
+    </p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/20190815_220134.jpg?v=1642015461631" alt="" class="mx-auto d-block" style="width:90%"> 
+  <b><p class="text-center">
+    Elena Banica, "Contrast II," Spring 2019. Charcoal, 11in X 14in.
+    </p></b>
+  </div>
+  
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/The%20Nostalgia.jpg?v=1642019607054" alt="" class="mx-auto d-block" style="width:80%"> 
+  <b><p class="text-center">
+    Elena Banica, "Nostalgia," Spring 2019. Pastel, 11in X 14in.
+    </p></b>
+  </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/At%20a%20Crossroads.jpg?v=1643083562342" alt="" class="mx-auto d-block" style="width:80%"> 
+  <b><p class="text-center">
+    Elena Banica, "At a Crossroads," Spring 2019. Pencil, 11in X 14in.
+    </p></b>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark"></nav>
+  
+  <div class="container mt-3">
+  <img src="https://cdn.glitch.global/4c172d2f-b20d-4390-9d70-20e95e48c220/G2.jpg?v=1643085398317" alt="" class="mx-auto d-block" style="width:48%"> 
+  <b><p class="text-center">
+    Elena Banica, "Jacket," Spring 2019. Pencil, 18in X 24in.</p></b>
+  </div> 
+  <footer class="container-fluid text-center"> 
+    
     <div class="mybtn-right">
 	
   <a class="btn btn-primary" href="index.html">HOME</a>
-  </div> 
-    <h4 class="text-center">Elena Banica - Artist Portfolio © 2022</h4>
-    </footer>
+  </div>
+    <h4 class="text-center">Elena Banica - Artist Portfolio © 2023</h4>
+      
+  </footer>
 
 </body>
 </html>
